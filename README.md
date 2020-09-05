@@ -1,6 +1,6 @@
 # POC project
-# the purpose of this project is only to study a better approach to # managing the application state.
-# Where to avoid unnecessary rendering, and to study the communication # between components through redux
+# the purpose of this project is only to study a better approach to managing the application state.
+# Where to avoid unnecessary rendering, and to study the communication between components through redux
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
