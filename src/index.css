@@ -1,0 +1,43 @@
+@import '../node_modules/codemirror/lib/codemirror.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.CodeMirror {
+  border-radius: 0 !important;
+}
+
+.app {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.code-editor {
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  height: 100vh;
+}
+
+.content-editor {
+  width: 77vw;
+}
+
+.code {
+  width: 100%;
+  height: calc((100vh / 3) - 1px);
+  border-bottom: 1px solid gray;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
