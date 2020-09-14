@@ -72,10 +72,6 @@ const CodeMirrorFC: React.FC<ICodeMirrorFC> = ({
                 if (handlerValue && codeMirrorRef.current)
                     handlerValue(codeMirrorRef.current.getValue());
             });
-            codeMirrorRef.current.on('change', () => {
-                if (handlerValue && codeMirrorRef.current)
-                    handlerValue(codeMirrorRef.current.getValue());
-            });
             (async () => {
                 await setOptions(options)
             })()
